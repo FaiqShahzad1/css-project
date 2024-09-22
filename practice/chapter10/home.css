@@ -1,0 +1,30 @@
+* {
+    color: rgb(120, 59, 161)
+}
+ h1{
+    background-color: black;
+ }
+ .red {
+    height: 50px;
+ }
+ p.note{
+    color: rgb(255, 0, 0);
+ }
+ #blue{
+    background-color: rgb(255, 60, 0);
+ }
+ li>i{
+    color: #ff0000;
+ }
+ p i{
+    height: 80px;
+    color: #00ffc8;
+ }
+ h1+p {
+    font-family: fantasy;
+ }
+ h1~p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+ }
+ 
