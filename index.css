@@ -1,0 +1,8 @@
+.home{
+color: rgb(216, 32, 32);
+}
+.body{
+background-image: url(pic/pic.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+}
