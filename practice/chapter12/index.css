@@ -1,0 +1,129 @@
+.font-size{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+.font-family{
+    font-style: italic;
+    font-weight:100;
+}
+.text-transform1{
+    text-transform: uppercase;
+}
+
+.text-transform2{
+text-transform: lowercase;
+letter-spacing: 0.9em;
+}
+.text-transform3{
+    text-transform: capitalize;
+    word-spacing: 1.8em;
+}
+
+.underline1{
+    text-decoration: underline;
+}
+.underline2{
+    text-decoration: none;
+}
+.height{
+    line-height: 1.6em;
+}
+.text-align-1{
+    text-align: left;
+}
+.text-align-2{
+    text-align: justify;
+}
+.text-align-3{
+    text-align: right;
+}
+
+.vertical-align{
+vertical-align: text-top;    
+}
+.vertical-align2{
+    vertical-align:baseline
+}
+.vertical-align3{
+    vertical-align:text-bottom
+}
+.background-image{
+    background-image: url(../../pic/pic.jpeg);
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+}
+.text-indent{
+    text-indent: 100px;
+}
+.background-shadow1{
+background-color: aqua;
+color: black;
+text-shadow: 1px 1px 2px #000000;
+}
+.background-shadow2{
+    background-color: #dddddd;
+color: #666666;
+text-shadow: 1px 1px 3px #666666;}
+
+.background-shadow3{
+    background-color: #cccccc;
+    color: #ffffff;
+    text-shadow: 2px 2px 7px #111111;
+}
+.background-shadow4{
+    background-color: #cccccc;
+    color: #ffffff;
+    text-shadow:  -1px -2px #666666;
+}
+.background-shadow5{
+    background-color: #cccccc;
+    color: #ffffff;
+    text-shadow:-1px -1px #666666;;
+}
+.First::first-letter{
+font-size: xx-large;
+}
+.first2::first-line{
+    font-weight: bold;
+}
+.link:link{
+    color:deeppink ;
+    text-decoration: none;
+    font-size: large;
+}
+.visited:visited{
+    color: rgb(247, 14, 14);
+}
+.hover:hover{
+    color: deeppink;
+    text-decoration: underline;
+    text-shadow: 1px,1px,2px #000000;
+}
+.active:active{
+    color: darkcyan;
+}
+i.P{
+    color: deeppink;
+}
+input{
+    padding: 6px 12px 6px 12px ;
+    border: 2px solid #e71f11;
+    color: #000000;
+}
+input.submit:hover{
+    background-color: aqua;
+}
+input.submit:active{
+    background-color: chartreuse;
+}
+input.text{
+    color:rgb(13, 241, 135) ;
+}
+input.text:focus{
+    color: rgb(0, 0, 0);
+}
+
+
+
+

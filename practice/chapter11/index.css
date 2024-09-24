@@ -4,3 +4,9 @@
     .two {
     background-color: rgba(231, 227, 227, 0.993);
     color: rgba(245, 16, 16, 0.5);}
+    body {
+        background-color: #C8C8C8;
+        background-color: hsl(0,0%,78%);}
+        p {
+        background-color: #ffffff;
+        background-color: hsla(0,100%,100%,0.5);}
