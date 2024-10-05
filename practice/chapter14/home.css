@@ -21,3 +21,139 @@
 .ul {
     list-style-image: url(../../pic/5.jpg);
 }
+
+.ul2 {
+    list-style-position: outside;
+}
+
+.ul3 {
+    width: 150px;
+}
+
+.li {
+    margin: 10px;
+}
+
+.ul4 {
+    list-style-position: inside;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #111111;
+}
+
+table {
+    width: 600px;
+}
+
+th,
+td {
+    padding: 7px 10px 10px 10px;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+}
+
+tr.even {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: #c3e6e5;
+}
+
+.money {
+    text-align: right;
+}
+
+.td {
+    border: 2px solid #000000;
+    padding: 15px;
+    background-color: #0088dd;
+
+}
+
+.one {
+    border-spacing: 5px 15px;
+    empty-cells: show;
+}
+
+.two {
+    empty-cells: hide;
+    border-collapse: collapse;
+}
+
+input {
+    font-size: 25px;
+    color: #5a585a;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    background-color: #ffffff;
+    border: 1px solid #081f20;
+}
+
+input.email {
+    background-image: url(../../pic/email.png);
+}
+
+input.twiter {
+    background-image: url(../../pic/twiter.png);
+}
+
+input.web {
+    background-image: url(../../pic/web.jpg);
+}
+
+.fieldset {
+    width: px;
+    border: 1px solid #dcdcdc;
+    /* border-radius: 10px; */
+    padding: 20px;
+
+}
+
+.legend {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.div {
+    border-bottom: 1px solid #efefef;
+    margin: 10px;
+    padding: 10px;
+    width: 260px;
+}
+
+.title {
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.radio-buttons-label {
+    float: none;
+}
+
+.submit {
+    text-align: right;
+}
