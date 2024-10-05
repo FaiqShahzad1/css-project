@@ -1,0 +1,76 @@
+.body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #666;
+}
+
+.h1 {
+    font-size: 25px;
+}
+
+.icon-image {
+    list-style-image: url(../../pic/5.jpg);
+    line-height: 1.6em;
+}
+
+.table {
+    border-spacing: 0px;
+}
+
+.th {
+    padding: 5px 30px 5px 10px;
+    font-size: 90%;
+    margin: 0px;
+    background-color: #90b4d6;
+    border-bottom: 2px solid #547ca0;
+    border-right: 1px solid #749abe;
+    border-top: 1px solid #90b4d6;
+    color: white;
+    
+}
+
+.td {
+    padding: 5px 30px 5px 10px;
+    font-size: 90%;
+    margin: 0px;
+    background-color: #e0e9f0;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;
+    text-align: left;
+}
+
+.legend {
+    font-style: italic;
+    color: #666666;
+}
+
+.input {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;
+}
+
+.filedset {
+    width: 400px;
+}
+
+.input:hover {
+    background-color: #d0e2f0;
+    border: 1px solid #999;
+}
+
+.submit:hover {
+    border: 1px solid #006633;
+    background-color: #00CC33;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.submit1{
+    width: 70px;
+    text-align: right;
+}
+.submit:active{
+    color: black;
+    background-color: #10b2f1;
+}

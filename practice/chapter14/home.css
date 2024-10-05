@@ -1,0 +1,23 @@
+.ol {
+    list-style: lower-roman;
+}
+
+.ol1 {
+    list-style: upper-roman;
+}
+
+.ol2 {
+    list-style: upper-alpha
+}
+
+.ol3 {
+    list-style: decimal
+}
+
+.ol4 {
+    list-style: decimal-leading-zero
+}
+
+.ul {
+    list-style-image: url(../../pic/5.jpg);
+}
