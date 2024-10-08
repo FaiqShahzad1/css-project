@@ -5,7 +5,7 @@
 .red {
     background-color: #EA333D;
     text-align: center;
-    height: 115px;
+    height: 125px;
 }
 
 .black {
@@ -15,22 +15,22 @@
     width: 30%;
     margin-left: 35.5%;
     position: absolute;
-    top: 50px;
+    top: 58px;
     border-radius: 10px;
 }
 
 .black1 {
     color: #E4992B;
     font-size: 35px;
-    margin-top: 30px;
+    margin-top: 32px;
     font-family: sans-serif;
-    margin-left: 115px;
+    margin-left: 120px;
 }
 
 .img {
     position: absolute;
     left: 575px;
-    top: 63px;
+    top: 67px;
 }
 
 .calender {
@@ -52,7 +52,7 @@
     font-size: 30px;
     font-family: sans-serif;
     color: #000;
-    margin-left: 100px;
+    margin-left: 85px;
     margin-top: -40px;
     font-weight: bold;
 }
@@ -71,7 +71,7 @@
     font-size: 30px;
     font-family: sans-serif;
     color: #000;
-    margin-left: 100px;
+    margin-left: 85px;
     margin-top: -40px;
     font-weight: bold;
 }
@@ -90,7 +90,7 @@
     font-size: 30px;
     font-family: sans-serif;
     color: #000;
-    margin-left: 100px;
+    margin-left: 85px;
     margin-top: -40px;
     font-weight: bold;
 }
@@ -109,7 +109,7 @@
     font-size: 30px;
     font-family: sans-serif;
     color: #000;
-    margin-left: 100px;
+    margin-left: 85px;
     margin-top: -40px;
     font-weight: bold;
 }
@@ -134,7 +134,7 @@
 
 .div2 {
     background-color: #FFF6E8;
-    width: 225px;
+    width: 240px;
     height: 70px;
     border-radius: 10px;
     float: left;
@@ -149,7 +149,7 @@
     height: 70px;
     border-radius: 10px;
     float: left;
-    margin-left: 4.6%;
+    margin-left: 3.6%;
     margin-top: 30px;
     border: 2px solid black;
 }
@@ -162,7 +162,7 @@
     height: 70px;
     border-radius: 10px;
     float: left;
-    margin-left: 4%;
+    margin-left: 3.6%;
     margin-top: 30px;
     border: 2px solid black;
 }
@@ -200,10 +200,11 @@
     text-decoration: none;
     font-weight: 600;
     position: relative;
-    top: 700px;
-    right: 150px;
+    top: 675px;
+    right: 165px;
     font-size: 20px;
 }
+
 
 .a2 {
     clear: left;
@@ -213,9 +214,13 @@
 }
 
 .linkText {
-    padding-bottom:70px ;
+    padding-bottom: 50px;
     margin-top: -35px;
     margin-left: 55px;
     font-size: 17px;
     font-family: sans-serif;
+}
+.a:hover{
+    background-color: gainsboro;
+    text-decoration: underline;
 }
