@@ -201,14 +201,14 @@
     font-weight: 600;
     position: relative;
     top: 675px;
-    right: 165px;
+    right: 10.4%;
     font-size: 20px;
 }
 
 
 .a2 {
     clear: left;
-    margin-left: 240px;
+    margin-left: 15%;
     font-weight: 600;
     padding-top: 27px;
 }
@@ -216,11 +216,12 @@
 .linkText {
     padding-bottom: 50px;
     margin-top: -35px;
-    margin-left: 55px;
+    margin-left: 3.6%;
     font-size: 17px;
     font-family: sans-serif;
 }
-.a:hover{
+
+.a:hover {
     background-color: gainsboro;
     text-decoration: underline;
 }
