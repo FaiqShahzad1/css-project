@@ -4,7 +4,7 @@ body {
 }
 
 .navlink {
-    border: 1px solid black ;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,10 +12,12 @@ body {
     margin-top: 1px;
     min-width: 53px;
     padding: 6px 5px;
-    
+   
+
 
 }
-.selected{
+
+.selected {
     background-color: #F53030;
     display: flex;
     flex-direction: column;
@@ -26,7 +28,8 @@ body {
     padding: 6px 5px;
     border-radius: 4px;
 }
-.navlink:hover{
+
+.navlink:hover {
     background-color: #F53030;
     border-radius: 4px;
 }
@@ -35,16 +38,25 @@ body {
     margin-bottom: -10px;
     margin-top: 20px;
 }
-.navlinkscontainer{
+
+.navlinkscontainer {
     display: flex;
     height: 70px;
     gap: 10px;
 }
+
 .div {
     color: white;
     text-decoration: none;
     font-family: 'Pe-icon-7-stroke';
-    
+
+}
+
+.padding {
+    padding: 20px 10px;
+    margin-bottom: 3%;
+    background-color: white;
+
 }
 
 .navbar {
@@ -60,7 +72,7 @@ body {
     background-color: white;
     padding: 20px;
     display: flex;
-    width: 80%;
+    width: 75%;
     margin: auto;
     border: 1px solid lightgray;
 
@@ -81,12 +93,12 @@ body {
 
 .section2 {
     width: 70%;
+    padding-left: 27px;
+
 
 }
 
-.gap {
-    margin-bottom: 3%;
-}
+
 
 .heading {
     color: #333333;
@@ -116,14 +128,19 @@ body {
 .p {
     margin: 0px;
     padding-left: 5px;
+    font-family: 'CANDARA';
+    height: 29px;
+    font-size: 14px;
 }
 
 .div1 {
-    font-size: 11px;
-    color: gray;
+    font-weight: 300;
+    color: #404040;
     display: block;
     margin: 0px;
+    margin-right: -12px;
     padding-left: 5px;
+    font-size: 7px;
 
 }
 
@@ -133,9 +150,43 @@ body {
 
 .one {
     display: flex;
+    padding-top: 15px;
+
 }
 
 .movieContainer:hover {
     color: red;
     background-color: #EDEEEE;
+}
+
+.fav {
+    color: #333333;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: CANDARA, sans-serif, verdana, arial, helvetica, serif, sans-serif;
+    text-decoration: none;
+}
+
+.padding2 {
+    padding: 20px 10px 0px 10px;
+
+}
+
+.white {
+    background-color: white;
+    width: 382px;
+
+}
+
+.div12 {
+    margin-left: 9px;
+    text-align: center;
+    padding-top: 5px;
+    height: 30px;
+    margin-top: -5px;
+    width: 363px;
+}
+
+.div12:hover {
+    background-color: #EFEFEF;
 }
